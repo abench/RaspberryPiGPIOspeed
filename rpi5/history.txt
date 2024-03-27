@@ -1,0 +1,83 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt update
+    4  sudo apt upgrade
+    5  sudo apt autoremove
+    6  sudo rpi-eeprom-update -a
+    7  sudo reboot
+    8  sudo rpi-eeprom-update -a
+    9  sudo lsb_release -a
+   10  sudo lsb_release
+   11  sudo lsb_release -h
+   12  sudo lsb_release -s
+   13  sudo lsb_release -a
+   14  sudo apt-get install libgpiod2 libgpiod-dev
+   15  gpiochip4
+   16  sudo su -
+   17  sudo apt update
+   18  sudo apt upgrade
+   19  lsb_release -a
+   20  pip
+   21  apt install nvim
+   22  sudo apt install nvim
+   23  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+   24  chmod u+x nvim.appimage
+   25  ./nvim.appimage
+   26  ./nvim.appimage --appimage-extract
+   27  ./squashfs-root/AppRun --version
+   28  # Optional: exposing nvim globally.
+   29  sudo mv squashfs-root /
+   30  sudo ln -s /squashfs-root/AppRun /usr/bin/nvim
+   31  nvim
+   32  curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+   33  sudo chmod u+x nvim.appimage
+   34  ./nvim.appimage
+   35  sudo ./nvim.appimage
+   36  dir
+   37  sudo apt-get install git
+   38  sudo apt-get install libtool libtool-bin autoconf automake cmake g++ pkg-config unzip
+   39  git clone https://github.com/neovim/neovim.git
+   40  cd neovim
+   41  make CMAKE_BUILD_TYPE=RelWithDebInfo
+   42  sudo make install
+   43  sudo apt install gpiod
+   44  gpioinfo
+   45  gcc
+   46  g++ main.cpp -I gpiod
+   47  g++ main.cpp -o blink25 -I gpiod
+   48  g++ main.cpp -I gp1od
+   49  g++ main.cpp -I gpiod
+   50  g++ main.cpp -l gpiod
+   51  dir
+   52  a.out
+   53  ./a.out
+   54  g++ main.cpp -l gpiod
+   55  a.out
+   56  ./a.out
+   57  ls
+   58  python main.py 
+   59  dir
+   60  python main.py 
+   61  ls
+   62  touch compile.sh
+   63  sh compile.sh 
+   64  ls
+   65  rm a.out 
+   66  sh compile.sh 
+   67  ls
+   68  arm a.out 
+   69  ./a.out 
+   70  rm a.out 
+   71  ls
+   72  sh compile.sh 
+   73  ls
+   74  pwd
+   75  python3 ma
+   76  python3 main.py 
+   77  ./a.out
+   78  sh compile.sh 
+   79  ls
+   80  ./a.out 
+   81  history
+   82  history|more
+   83  history >> history.txt
